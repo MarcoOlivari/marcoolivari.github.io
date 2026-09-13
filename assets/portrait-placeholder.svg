@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464 580" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">A quiet academic portrait placeholder with Marco Olivari initials.</desc>
+  <rect width="464" height="580" fill="#e7eee9"/>
+  <rect x="1" y="1" width="462" height="578" fill="none" stroke="#d3ddd7" stroke-width="2"/>
+  <circle cx="232" cy="212" r="76" fill="#d6e1da"/>
+  <path d="M116 444c14-78 58-124 116-124s102 46 116 124" fill="#d6e1da"/>
+  <text x="232" y="507" text-anchor="middle" fill="#8a9791" font-family="Consolas, monospace" font-size="24" letter-spacing="6">PORTRAIT</text>
+</svg>
