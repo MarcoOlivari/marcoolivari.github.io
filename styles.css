@@ -356,7 +356,8 @@ address a[href^="mailto:"] {
   }
 
   .nav {
-    justify-content: flex-start;
+    width: 100%;
+    justify-content: center;
     gap: 12px 18px;
   }
 
@@ -427,6 +428,7 @@ address a[href^="mailto:"] {
 
   .portrait {
     max-width: 224px;
+    margin-inline: auto;
   }
 
   .profile h1 {
