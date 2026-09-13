@@ -379,6 +379,11 @@ address a[href^="mailto:"] {
 
   .profile h1 {
     margin-top: 18px;
+    text-align: center;
+  }
+
+  .role {
+    text-align: center;
   }
 
   .profile-block {
