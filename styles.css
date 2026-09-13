@@ -356,6 +356,7 @@ address a[href^="mailto:"] {
   }
 
   .nav {
+    align-self: stretch;
     width: 100%;
     justify-content: center;
     gap: 12px 18px;
@@ -368,18 +369,16 @@ address a[href^="mailto:"] {
 
   .profile {
     position: static;
-    display: grid;
-    grid-template-columns: 150px minmax(0, 1fr);
-    gap: 0 24px;
-    align-items: start;
+    display: block;
   }
 
   .portrait {
-    grid-row: span 4;
+    max-width: 224px;
+    margin-inline: auto;
   }
 
   .profile h1 {
-    margin-top: 0;
+    margin-top: 18px;
   }
 
   .profile-block {
@@ -420,15 +419,6 @@ address a[href^="mailto:"] {
   .page-shell {
     width: min(100% - 28px, 1052px);
     margin: 28px auto 56px;
-  }
-
-  .profile {
-    display: block;
-  }
-
-  .portrait {
-    max-width: 224px;
-    margin-inline: auto;
   }
 
   .profile h1 {
