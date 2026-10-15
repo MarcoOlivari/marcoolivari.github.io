@@ -234,6 +234,10 @@ address a[href^="mailto:"] {
   margin-top: 12px;
 }
 
+.draft-status {
+  color: var(--bu-red);
+}
+
 .paper-links > * + *,
 .media-links > * + * {
   position: relative;
