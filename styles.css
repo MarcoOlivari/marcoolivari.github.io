@@ -213,6 +213,11 @@ address a[href^="mailto:"] {
   line-height: 1.3;
 }
 
+.featured-paper h3 a {
+  color: var(--bu-red);
+  text-decoration-color: var(--bu-red);
+}
+
 .paper p {
   max-width: 720px;
   margin: 0 0 10px;
